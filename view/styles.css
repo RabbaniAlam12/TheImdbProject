@@ -1,0 +1,266 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* #registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.user.information {
+    display: flex;
+    flex-direction: column;
+}
+
+#registration form {
+    text-align: center;
+}
+
+#user-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.registration.login {
+    background-color: #6dfd0d;
+} */
+
+/* .showSearch {
+    padding: 10rem;
+    outline: 1px solid black;
+}
+
+.showSearch .searchFields {
+    outline: 1px solid black;
+    
+}
+
+.searchFields .searchBar{
+    padding: 0 0 0 3em;
+    border-radius: 10px;
+} */
+
+/* Set styles for the registration and login sections */
+.registration.login {
+  background-color: #fd3d0d3d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.registration.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.registration.login input {
+  margin-bottom: 1em;
+  padding: 0.5em;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.registration.login button {
+  margin-top: 1em;
+  padding: 0.5em;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #fff;
+}
+
+/* Set styles for the registration form */
+#registration {
+  margin-bottom: 3em;
+}
+
+#registration p {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.user.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.user.information input {
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 100%;
+}
+
+#user-reg-btn {
+  background-color: #007bff;
+}
+
+#user-reg-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Set styles for the login form */
+#user-login p {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black;
+}
+
+#user-login input {
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 100%;
+}
+
+#user-login-btn {
+  background-color: #28a745;
+}
+
+#user-login-btn:hover {
+  background-color: #1e7e34;
+}
+
+.showSearch .searchFields {
+    margin-top: 15rem;
+    display: flex;
+    align-items: center;
+}
+
+.searchFields .searchBar {
+    flex: 1;
+    outline: 1px solid black;
+    padding: 0.5em 1em;
+    border-radius: 10px 0 0 10px;
+    border: none;
+}
+
+.searchFields button {
+    padding: 0.55em 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+
+
+  
+  /* Quiz form styles */
+#quiz {
+    margin-top: 5em;
+}
+  
+  #play-quiz-btn {
+    background-color: #343a40;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+  
+  #play-quiz-btn:hover {
+    background-color: #949ca5;
+    cursor: pointer;
+}
+  
+  /* Trivia display styles */
+  .trivia-display {
+    margin-top: 50px;
+}
+  
+  #display-questions {
+      font-weight: bold;
+  }
+
+  #display-answers {
+    
+
+}
+  
+  #display-result {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Account management */
+
+.accountManagement{
+    margin: 5em auto;
+    max-width: 37.5em;
+    padding: 1.25em;
+    border: 0.0625em solid #ccc;
+    border-radius: 0.625em;
+  }
+
+  #user-information-update input {
+    margin-bottom: 0.625em;
+  }
+
+  #user-update-btn {
+    margin-top: 0.625em;
+  }
+
+  #user-update-btn:hover {
+    background-color: #479dff;
+    cursor: pointer;
+}
+
+  #display-update {
+    margin-top: 0.625em;
+  }
+
+  /* email Preference */
+
+  .container-email-pref {
+    max-width: 31.25em;
+    margin: 5em;
+  }
+
+  .form-check-input {
+    margin-right: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-check-label {
+    font-weight: bold;
+  }
+  
+  #email-pref-btn {
+    margin-top: 10px;
+  }
